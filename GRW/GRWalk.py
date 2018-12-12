@@ -1,3 +1,5 @@
+import numpy as np
+
 def GRWalk(n,M,mu,sigma):
 
     X = np.array(np.random.normal(mu,sigma,size=(n,M)))
